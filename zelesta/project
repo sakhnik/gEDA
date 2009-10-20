@@ -1,0 +1,3 @@
+schematics display.sch
+output-name board
+elements-dir ../pcb-elements
