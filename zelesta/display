@@ -1,4 +1,4 @@
 schematics display.sch
-output-name board
+output-name display
 elements-dir ../pcb-elements
 use-files
