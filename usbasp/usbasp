@@ -1,0 +1,4 @@
+schematics usbasp.sch
+output-name usbasp
+elements-dir ../pcb-elements
+use-files
