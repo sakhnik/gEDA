@@ -1,5 +1,5 @@
 # release: pcb 20080202
-# date:    Fri Dec 11 00:25:57 2009
+# date:    Fri Dec 11 23:09:37 2009
 # user:    sakhnik (Анатолій Сахнік,,,,)
 # host:    turkul
 
@@ -1363,11 +1363,11 @@ Layer(7 "unused")
 )
 Layer(8 "unused")
 (
-	Text[220000 25000 0 100 "Supply TGT" ""]
+	Text[75000 17000 0 100 "Slow SCK" ""]
 	Text[186000 9000 0 100 "Self PRG" ""]
 	Text[126000 9000 0 100 "green" ""]
 	Text[151000 9000 0 100 "red" ""]
-	Text[75000 17000 0 100 "Slow SCK" ""]
+	Text[215000 9000 0 100 "Supply TGT" ""]
 )
 NetList()
 (
