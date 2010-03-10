@@ -15,6 +15,8 @@ T 42650 47550 5 10 0 1 0 2 1
 device=HEADER20
 T 43000 43200 5 10 1 1 0 2 1
 refdes=J1
+T 42400 47300 5 10 0 0 0 0 1
+footprint=HEADER20_2
 }
 C 46600 45300 1 0 0 capacitor-1.sym
 {
@@ -38,7 +40,7 @@ C 47100 47200 1 0 0 resistor-1.sym
 T 47400 47600 5 10 0 0 0 0 1
 device=RESISTOR
 T 47300 47500 5 10 1 1 0 0 1
-refdes=R1
+refdes=R2
 }
 N 48000 47300 48500 47300 4
 C 47500 44500 1 0 0 crystal-1.sym
@@ -58,7 +60,7 @@ C 44800 43400 1 0 0 resistor-1.sym
 T 45100 43800 5 10 0 0 0 0 1
 device=RESISTOR
 T 45600 43300 5 10 1 1 0 0 1
-refdes=R2
+refdes=R18
 T 44700 43300 5 10 1 1 0 0 1
 value=270
 }
@@ -67,7 +69,7 @@ C 44800 43800 1 0 0 resistor-1.sym
 T 45100 44200 5 10 0 0 0 0 1
 device=RESISTOR
 T 45600 43700 5 10 1 1 0 0 1
-refdes=R3
+refdes=R17
 T 44800 43700 5 10 1 1 0 0 1
 value=15
 }
@@ -76,7 +78,7 @@ C 44800 44200 1 0 0 resistor-1.sym
 T 45100 44600 5 10 0 0 0 0 1
 device=RESISTOR
 T 45600 44100 5 10 1 1 0 0 1
-refdes=R4
+refdes=R16
 T 44800 44100 5 10 1 1 0 0 1
 value=15
 }
@@ -95,7 +97,7 @@ C 44800 44600 1 0 0 resistor-1.sym
 T 45100 45000 5 10 0 0 0 0 1
 device=RESISTOR
 T 45600 44500 5 10 1 1 0 0 1
-refdes=R5
+refdes=R14
 T 44800 44500 5 10 1 1 0 0 1
 value=15
 }
@@ -110,7 +112,7 @@ C 44800 45000 1 0 0 resistor-1.sym
 T 45100 45400 5 10 0 0 0 0 1
 device=RESISTOR
 T 45600 44900 5 10 1 1 0 0 1
-refdes=R6
+refdes=R12
 T 44800 44900 5 10 1 1 0 0 1
 value=15
 }
@@ -123,7 +125,7 @@ C 44800 45400 1 0 0 resistor-1.sym
 T 45100 45800 5 10 0 0 0 0 1
 device=RESISTOR
 T 45600 45300 5 10 1 1 0 0 1
-refdes=R7
+refdes=R11
 T 44800 45300 5 10 1 1 0 0 1
 value=15
 }
@@ -136,7 +138,7 @@ C 44800 45800 1 0 0 resistor-1.sym
 T 45100 46200 5 10 0 0 0 0 1
 device=RESISTOR
 T 45600 45700 5 10 1 1 0 0 1
-refdes=R8
+refdes=R10
 T 44800 45700 5 10 1 1 0 0 1
 value=15
 }
@@ -149,7 +151,7 @@ C 44800 46200 1 0 0 resistor-1.sym
 T 45100 46600 5 10 0 0 0 0 1
 device=RESISTOR
 T 45600 46100 5 10 1 1 0 0 1
-refdes=R9
+refdes=R8
 T 44800 46100 5 10 1 1 0 0 1
 value=15
 }
@@ -162,14 +164,14 @@ C 51200 48400 1 90 0 pnp-2.sym
 T 50800 49000 5 10 0 0 270 8 1
 device=PNP_TRANSISTOR
 T 50100 48600 5 10 1 1 180 8 1
-refdes=Q1
+refdes=Q5
 }
 C 51400 45700 1 0 0 resistor-1.sym
 {
 T 51700 46100 5 10 0 0 0 0 1
 device=RESISTOR
 T 52200 45900 5 10 1 1 0 0 1
-refdes=R?
+refdes=R9
 }
 N 51100 45800 51400 45800 4
 C 51400 46000 1 0 0 resistor-1.sym
@@ -177,28 +179,28 @@ C 51400 46000 1 0 0 resistor-1.sym
 T 51700 46400 5 10 0 0 0 0 1
 device=RESISTOR
 T 52200 46200 5 10 1 1 0 0 1
-refdes=R?
+refdes=R7
 }
 C 51400 46300 1 0 0 resistor-1.sym
 {
 T 51700 46700 5 10 0 0 0 0 1
 device=RESISTOR
 T 52200 46500 5 10 1 1 0 0 1
-refdes=R?
+refdes=R6
 }
 C 51400 46600 1 0 0 resistor-1.sym
 {
 T 51700 47000 5 10 0 0 0 0 1
 device=RESISTOR
 T 52200 46800 5 10 1 1 0 0 1
-refdes=R?
+refdes=R5
 }
 C 51400 46900 1 0 0 resistor-1.sym
 {
 T 51700 47300 5 10 0 0 0 0 1
 device=RESISTOR
 T 52200 47100 5 10 1 1 0 0 1
-refdes=R?
+refdes=R4
 }
 N 51100 46100 51400 46100 4
 N 51100 46400 51400 46400 4
@@ -209,21 +211,21 @@ C 50000 48400 1 90 0 pnp-2.sym
 T 49600 49000 5 10 0 0 270 8 1
 device=PNP_TRANSISTOR
 T 48900 48600 5 10 1 1 180 8 1
-refdes=Q1
+refdes=Q4
 }
 C 48800 48400 1 90 0 pnp-2.sym
 {
 T 48400 49000 5 10 0 0 270 8 1
 device=PNP_TRANSISTOR
 T 47700 48600 5 10 1 1 180 8 1
-refdes=Q1
+refdes=Q3
 }
 C 47600 48400 1 90 0 pnp-2.sym
 {
 T 47200 49000 5 10 0 0 270 8 1
 device=PNP_TRANSISTOR
 T 46500 48600 5 10 1 1 180 8 1
-refdes=Q1
+refdes=Q2
 }
 C 46400 48400 1 90 0 pnp-2.sym
 {
@@ -279,14 +281,14 @@ C 51900 44500 1 0 0 resistor-1.sym
 T 52200 44900 5 10 0 0 0 0 1
 device=RESISTOR
 T 52700 44700 5 10 1 1 0 0 1
-refdes=R?
+refdes=R13
 }
 C 51900 44200 1 0 0 resistor-1.sym
 {
 T 52200 44600 5 10 0 0 0 0 1
 device=RESISTOR
 T 52700 44400 5 10 1 1 0 0 1
-refdes=R?
+refdes=R15
 }
 N 51100 44600 51900 44600 4
 N 51100 44300 51900 44300 4
@@ -308,7 +310,7 @@ C 44000 47000 1 0 0 resistor-1.sym
 T 44300 47400 5 10 0 0 0 0 1
 device=RESISTOR
 T 44800 47200 5 10 1 1 0 0 1
-refdes=R?
+refdes=R3
 }
 N 43800 47100 44000 47100 4
 C 45700 47200 1 90 0 pnp-2.sym
@@ -316,7 +318,7 @@ C 45700 47200 1 90 0 pnp-2.sym
 T 45300 47800 5 10 0 0 270 8 1
 device=PNP_TRANSISTOR
 T 44600 47400 5 10 1 1 180 8 1
-refdes=Q1
+refdes=Q6
 }
 N 44900 47100 45200 47100 4
 N 45200 47100 45200 47200 4
@@ -326,7 +328,7 @@ C 43700 48100 1 0 0 resistor-1.sym
 T 44000 48500 5 10 0 0 0 0 1
 device=RESISTOR
 T 44100 47900 5 10 1 1 0 0 1
-refdes=R9
+refdes=R1
 T 43700 48000 5 10 1 1 0 0 1
 value=15
 }
@@ -343,7 +345,7 @@ C 41400 47700 1 0 0 connector2-1.sym
 T 41600 48700 5 10 0 0 0 0 1
 device=CONNECTOR_2
 T 41400 48500 5 10 1 1 0 0 1
-refdes=CONN?
+refdes=CONN1
 }
 N 43100 48200 43700 48200 4
 C 42900 47600 1 0 0 ground.sym
@@ -369,7 +371,7 @@ C 53200 44100 1 0 0 capacitor-1.sym
 T 53400 44800 5 10 0 0 0 0 1
 device=CAPACITOR
 T 53400 44600 5 10 1 1 0 0 1
-refdes=C?
+refdes=C2
 T 53400 45000 5 10 0 0 0 0 1
 symversion=0.1
 }
@@ -378,7 +380,7 @@ C 54500 44100 1 0 0 capacitor-1.sym
 T 54700 44800 5 10 0 0 0 0 1
 device=CAPACITOR
 T 54700 44600 5 10 1 1 0 0 1
-refdes=C?
+refdes=C3
 T 54700 45000 5 10 0 0 0 0 1
 symversion=0.1
 }
