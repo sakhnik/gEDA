@@ -1,0 +1,4 @@
+schematics display2.sch
+output-name display2
+elements-dir ../pcb-elements
+use-files

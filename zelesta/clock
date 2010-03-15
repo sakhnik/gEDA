@@ -1,0 +1,4 @@
+schematics clock.sch
+output-name clock
+elements-dir ../pcb-elements
+use-files
